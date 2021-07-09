@@ -70,6 +70,7 @@ void BlueLEDTask(void *param)
 
 int main() 
 {
+	// Initialise stdio
     stdio_init_all();
 
     gpio_init(GREEN_LED);
